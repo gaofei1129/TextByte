@@ -41,6 +41,7 @@ public class MainActivity extends Activity {
         thread.start();
     }
 
+
     private void thread2() {
         thread = new TextThread("thread---2");
         thread.start();
