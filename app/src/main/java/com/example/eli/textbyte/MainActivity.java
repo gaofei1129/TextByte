@@ -47,7 +47,6 @@ public class MainActivity extends Activity {
         thread.start();
     }
 
-
     private int[] getVal(byte[] valByte) {
         Log.e(MainActivity.class.getSimpleName(), "接收成功-------val.length-----" + valByte.length);
         int[] val = new int[valByte.length];
